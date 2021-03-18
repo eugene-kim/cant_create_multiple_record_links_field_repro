@@ -54,7 +54,7 @@ function HelloWorldApp() {
   if (!tableWithRecordLink) {
     return (
       <Button onClick={makeCreateTableWithRecordLink(base, targetTable)}>
-        Create Target Table
+        Create Table With Link
       </Button>
     );
   }
